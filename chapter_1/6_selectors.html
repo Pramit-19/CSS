@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        .first{
+            color: darkgreen;
+        }
+        #second,.third{
+            color: darkorange;
+        }
+        .forth p{
+            color: aqua;
+        }
+
+        div p{
+            background-color: blue;  /*descendant*/
+        }
+        /* i) element selector-> h1{},p{}
+        ii) Universal  slector->  *{}   least priority
+        iii) class selector
+        iv)  id selector
+        v)group selector
+        vi)descendant selector
+        */
+
+
+        /* ID-> unique
+           Class-> no need to unique
+        */ 
+
+    </style>
+    
+</head>
+<body>
+    <h1 class="first">Style using Selectors</h1>
+    <hr>
+    <p id="second">I am Pramit</p>
+    <hr>
+    <p class="third">B.Tech Final Year Student of CSE</p>
+    <hr>
+    <div class="forth">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, voluptatum.</p>
+    </div>
+    <hr>
+    <p>Lorem ipsum dolor sit amet.</p>
+    
+</body>
+</html> 
